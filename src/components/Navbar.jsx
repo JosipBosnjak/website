@@ -27,13 +27,13 @@ const Navbar = () => {
           */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="#" className="py-2 px-3 border rounded.md">
-              Sign in
+              Coming soon
             </a>
             <a
               href="#"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
-              Create
+              Coming soon
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
