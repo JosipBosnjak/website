@@ -1,45 +1,17 @@
-//import React from 'react';
 import slika from '../assets/slika.jpg';
 
 const ComingSoon = () => {
   return (
-    <div
-      style={{
-        position: 'relative',
-        height: '100vh', // Full screen height
-        width: '100vw', // Full screen width
-        overflow: 'hidden',
-        margin: '0 auto', // Centers the content horizontally
-      }}
-    >
+    <div className="relative w-full h-screen overflow-hidden">
       {/* Background Image */}
       <img
         src={slika}
         alt="Background"
-        style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover', // Ensures the image covers the screen
-        }}
+        className="absolute top-0 left-0 w-full h-full object-cover"
       />
 
       {/* Coming Soon Text */}
-      <div
-        style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          color: 'white',
-          fontSize: '4rem',
-          fontWeight: 'bold',
-          textShadow: '2px 2px 10px rgba(0, 0, 0, 0.7)',
-          textAlign: 'center',
-        }}
-      >
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-4xl md:text-6xl font-bold text-center drop-shadow-lg">
         Coming Soon
       </div>
     </div>
