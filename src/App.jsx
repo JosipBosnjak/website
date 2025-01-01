@@ -1,6 +1,7 @@
-import FeatureSection from './components/FeatureSection';
+//import FeatureSection from './components/FeatureSection';
 //import Footer from './components/Footer';
-import HeroSection from './components/HeroSection';
+//import HeroSection from './components/HeroSection';
+import ComingSoon from './components/ComingSoon';
 import Navbar from './components/Navbar';
 //import Pricing from './components/Pricing';
 //import Testimonials from './components/Testimonials';
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <Navbar />
       <div className="max-w-7xl mx-auto pt-20 px-6">
+        <ComingSoon />
         {/*
         <HeroSection />
         <FeatureSection />
