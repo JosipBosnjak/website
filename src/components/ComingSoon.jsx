@@ -6,9 +6,10 @@ const ComingSoon = () => {
     <div
       style={{
         position: 'relative',
-        height: '100vh',
-        width: '100vw',
+        height: '100vh', // Full screen height
+        width: '100vw', // Full screen width
         overflow: 'hidden',
+        margin: '0 auto', // Centers the content horizontally
       }}
     >
       {/* Background Image */}
@@ -21,8 +22,7 @@ const ComingSoon = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          objectFit: 'cover',
-          zIndex: -1,
+          objectFit: 'cover', // Ensures the image covers the screen
         }}
       />
 
