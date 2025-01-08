@@ -24,7 +24,8 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          */}
+*/}
+
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="https://promilcek.com/" className="py-2 px-3 rounded.md">
               Coming soon
