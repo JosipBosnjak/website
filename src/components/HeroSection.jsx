@@ -5,16 +5,15 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        IVANOVA STRANICA UPDATE
+        PROMILČEK UREĐAJ
         <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
           {' '}
-          za projekt
         </span>
       </h1>
-      <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Neki tekst Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Suscipit odit reiciendis repudiandae minima ipsum laudantium corporis
-        officia maxime at incidunt.
+      <p className="mt-10 text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600 max-w-4xl">
+        Jeste li sigurni da ste spremni za vožnju? <br /> Promilček vam u
+        nekoliko sekundi daje odgovor – ubacite 1 euro, puhnete u slamčicu i
+        saznajte odmah!
       </p>
       <div className="flex justify-center my-10">
         <a
