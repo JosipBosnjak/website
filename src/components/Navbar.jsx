@@ -27,13 +27,13 @@ const Navbar = () => {
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <a href="https://promilcek.com/" className="py-2 px-3 rounded.md">
-              Coming soon
+              Kontakt
             </a>
             <a
               href="https://promilcek.com/"
               className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
             >
-              Coming soon
+              E-mail
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -56,13 +56,13 @@ const Navbar = () => {
                 href="https://promilcek.com/"
                 className="py-2 px-3 border rounded-md"
               >
-                Coming soon
+                Kontakt
               </a>
               <a
                 href="https://promilcek.com/"
                 className="py-2 px-3 rounded-md bg-gradient-to-t from-orange-500 to-orange-800"
               >
-                Coming soon
+                E - mail
               </a>
             </div>
           </div>

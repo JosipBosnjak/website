@@ -1,21 +1,21 @@
 import { CheckCircle2 } from 'lucide-react';
-import codeImg from '../assets/code.jpg';
+import codeImg from '../assets/promilcek.png';
 import { checklistItems } from '../constants';
 
 const Workflow = () => {
   return (
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-        Accelerate your{' '}
+        Paketi za Promilček{' '}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-          coding workflow.
+          - po mjeri vaših potreba.
         </span>
       </h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center sm:mt-2 sm:ml-2 lg:mt-10 lg:ml-5 ">
         <div className="p-2 w-full lg:w-1/2">
-          <img src={codeImg} alt="Coding" />
+          <img src={codeImg} alt="Coding" className="rounded-3xl" />
         </div>
-        <div className="pt-12 w-full lg:w-1/2">
+        <div className="pt-12 w-full lg:w-1/2 sm:ml-0 sm:self-center">
           {checklistItems.map((item, index) => (
             <div key={index} className="flex mb-12">
               <div className="text-green-400 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">

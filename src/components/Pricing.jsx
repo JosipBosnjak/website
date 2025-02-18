@@ -21,7 +21,10 @@ const Pricing = () => {
               </p>
               <p className="mb-8">
                 <span className="text-5xl mt-6 mr-2">{option.price}</span>
-                <span className="text-neutral-400 tracking-tight">/Month</span>
+                <span className="text-neutral-400 tracking-tight">
+                  <del>{option.originalPrice}</del> /{' '}
+                  <span className="text-red-500">50% Off</span>
+                </span>
               </p>
               <ul>
                 {option.features.map((feature, index) => (

@@ -13,10 +13,10 @@ import user5 from '../assets/profile-pictures/user5.jpg';
 import user6 from '../assets/profile-pictures/user6.jpg';
 
 export const navItems = [
-  { label: 'Coming soon', href: 'https://promilcek.com/' },
-  { label: 'Coming soon', href: 'https://promilcek.com/' },
-  { label: 'Coming soon', href: 'https://promilcek.com/' },
-  { label: 'Coming soon', href: 'https://promilcek.com/' },
+  { label: 'O nama', href: 'https://promilcek.com/' },
+  { label: 'Paketi', href: 'https://promilcek.com/' },
+  { label: 'Galerija', href: 'https://promilcek.com/' },
+  //{ label: 'Coming soon', href: 'https://promilcek.com/' },
 ];
 
 export const testimonials = [
@@ -61,94 +61,93 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: 'Drag-and-Drop Interface',
+    text: 'Kako funkcionira?',
     description:
-      'Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.',
+      'Otkrijte kako Promilček brzo i precizno mjeri razinu alkohola u dahu.',
   },
   {
     icon: <Fingerprint />,
-    text: 'Multi-Platform Compatibility',
+    text: ' Tehničke specifikacije',
     description:
-      'Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.',
+      'Saznajte detalje o tehnologiji, bateriji i mjernom rasponu našeg uređaja.',
   },
   {
     icon: <ShieldHalf />,
-    text: 'Built-in Templates',
+    text: 'Sigurnost i pouzdanost',
     description:
-      'Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.',
+      'Promilček je certificiran i testiran za točnost – uvijek pouzdani rezultati.',
   },
   {
     icon: <BatteryCharging />,
-    text: 'Real-Time Preview',
+    text: 'Povezivanje i aplikacija',
     description:
-      'Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.',
+      'Sinkronizirajte rezultate s našom aplikacijom i pratite povijest mjerenja.',
   },
   {
     icon: <PlugZap />,
-    text: 'Collaboration Tools',
+    text: 'Kako koristiti?',
     description:
-      'Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.',
+      'Jednostavan za upotrebu – izmjerite razinu alkohola u samo nekoliko sekundi.',
   },
   {
     icon: <GlobeLock />,
-    text: 'Analytics Dashboard',
+    text: 'Gdje kupiti?',
     description:
-      'Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.',
+      'Provjerite gdje možete nabaviti svoj Promilček ili naručite odmah online.',
   },
 ];
 
 export const checklistItems = [
   {
-    title: 'Code merge made easy',
-    description:
-      'Track the performance of your VR apps and gain insights into user behavior.',
+    title: 'Mjerenje alkohola nikad jednostavnije',
+    description: 'Pratite rezultate mjerenja i analizirajte trendove.',
   },
   {
-    title: 'Review code without worry',
-    description:
-      'Track the performance of your VR apps and gain insights into user behavior.',
+    title: 'Provjera rezultata bez brige',
+    description: 'Pratite sve mjerenja i povijest očitanja u stvarnom vremenu.',
   },
   {
-    title: 'AI Assistance to reduce time',
-    description:
-      'Track the performance of your VR apps and gain insights into user behavior.',
+    title: 'Pametna pomoć uz AI analitiku',
+    description: 'Brže analizirajte podatke i otkrijte korisne uvide.',
   },
   {
-    title: 'Share work in minutes',
-    description:
-      'Track the performance of your VR apps and gain insights into user behavior.',
+    title: 'Podijelite rezultate u trenu',
+    description: 'Jednostavno dijelite očitanja s prijateljima ili obitelji.',
   },
 ];
 
 export const pricingOptions = [
   {
-    title: 'Free',
-    price: '$0',
+    title: 'Koncerti',
+    price: '€100',
+    originalPrice: '€200',
     features: [
-      'Private board sharing',
-      '5 Gb Storage',
-      'Web Analytics',
-      'Private Mode',
+      'Promilček uređaj integriran u aparat',
+      'Neograničen broj slamčica za testiranje',
+      'Hostesa za asistenciju i pomoć posjetiteljima',
+      'Osiguranje uređaja (+20 €)',
     ],
   },
   {
-    title: 'Pro',
-    price: '$10',
+    title: 'Privatne zabave',
+    price: '€150',
+    originalPrice: '€300',
     features: [
-      'Private board sharing',
-      '10 Gb Storage',
-      'Web Analytics (Advance)',
-      'Private Mode',
+      'Promilček uređaj integriran u aparat',
+      'Neograničen broj slamčica za testiranje',
+      'Hostesa za asistenciju i pomoć posjetiteljima',
+      'Osiguranje uređaja (+20 €)',
     ],
   },
   {
-    title: 'Enterprise',
-    price: '$200',
+    title: 'Kafići/Klubovi',
+    price: 'Na upit',
+    originalPrice: 'Po dogovoru',
     features: [
-      'Private board sharing',
-      'Unlimited Storage',
-      'High Performance Network',
-      'Private Mode',
+      'Promilček uređaj integriran u aparat',
+      'Neograničen broj slamčica za testiranje',
+      'Hostesa za asistenciju i pomoć posjetiteljima',
+      'Osiguranje uređaja (+20 €)',
     ],
   },
 ];

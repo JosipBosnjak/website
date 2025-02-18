@@ -1,5 +1,5 @@
-import video1 from '../assets/video1.mp4';
-import video2 from '../assets/video2.mp4';
+import video3 from '../assets/video3.mp4';
+import video4 from '../assets/video4.mp4';
 
 const HeroSection = () => {
   return (
@@ -20,29 +20,29 @@ const HeroSection = () => {
           href="#"
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
-          Button
+          O nama
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
-        </a>
+        {/*<a href="#" className="py-3 px-4 mx-3 rounded-md border">
+          Više...
+        </a>*/}
       </div>
-      <div className="flex mt-10 justify-center">
+      <div className="flex mx-12  mt-10 justify-center">
         <video
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-4 my-4"
         >
-          <source src={video1} type="video/mp4" />
+          <source src={video3} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <video
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-4 my-4"
         >
-          <source src={video2} type="video/mp4" />
+          <source src={video4} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
