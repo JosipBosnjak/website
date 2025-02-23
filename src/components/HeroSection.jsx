@@ -6,32 +6,35 @@ const HeroSection = () => {
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
         PROMILČEK UREĐAJ
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-pink-300 to-pink-600 text-transparent bg-clip-text">
           {' '}
         </span>
       </h1>
-      <p className="mt-10 text-lg text-center bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600 max-w-4xl">
+      <p className="mt-10 text-2xl text-center bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-pink-600 max-w-6xl">
         Jeste li sigurni da ste spremni za vožnju? <br /> Promilček vam u
         nekoliko sekundi daje odgovor – ubacite 1 euro, puhnete u slamčicu i
         saznajte odmah!
       </p>
-      <div className="flex justify-center my-10">
+
+      {/*
+        <div className="flex justify-center my-10">
         <a
           href="#"
           className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
         >
           O nama
         </a>
-        {/*<a href="#" className="py-3 px-4 mx-3 rounded-md border">
+        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
           Više...
+          </div>
         </a>*/}
-      </div>
+
       <div className="flex mx-12  mt-10 justify-center">
         <video
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-4 my-4"
+          className="rounded-lg w-1/2 border border-pink-700 shadow-sm shadow-pink-400 mx-4 my-4"
         >
           <source src={video3} type="video/mp4" />
           Your browser does not support the video tag.
@@ -40,7 +43,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-4 my-4"
+          className="rounded-lg w-1/2 border border-pink-700 shadow-sm shadow-pink-400 mx-4 my-4"
         >
           <source src={video4} type="video/mp4" />
           Your browser does not support the video tag.
