@@ -23,7 +23,7 @@ const Pricing = () => {
                 <span className="text-5xl mt-6 mr-2">{option.price}</span>
                 <span className="text-neutral-400 tracking-tight">
                   <del>{option.originalPrice}</del> /{' '}
-                  <span className="text-red-500">50% Off</span>
+                  <span className="text-pink-500">50% Off</span>
                 </span>
               </p>
               <ul>
@@ -36,7 +36,7 @@ const Pricing = () => {
               </ul>
               <a
                 href="#"
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-pink-700 border border-pink-400 rounded-lg transition duration-200"
               >
                 Subscribe
               </a>

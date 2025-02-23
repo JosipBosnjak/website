@@ -119,8 +119,8 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: 'Koncerti',
-    price: '€100',
-    originalPrice: '€200',
+    price: '€250',
+    originalPrice: '€500',
     features: [
       'Promilček uređaj integriran u aparat',
       'Neograničen broj slamčica za testiranje',

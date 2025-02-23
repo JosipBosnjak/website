@@ -26,14 +26,15 @@ const Navbar = () => {
           </ul>
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="https://promilcek.com/" className="py-2 px-3 rounded.md">
-              Kontakt
-            </a>
+            {/*<a
+              href="https://promilcek.com/"
+              className="py-2 px-3 rounded.md"
+            ></a>*/}
             <a
               href="https://promilcek.com/"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-pink-600 to-pink-500 py-2 px-3 rounded-md"
             >
-              E-mail
+              E-mail: info@promilcek.com
             </a>
           </div>
           <div className="lg:hidden md:flex flex-col justify-end">
@@ -62,7 +63,7 @@ const Navbar = () => {
                 href="https://promilcek.com/"
                 className="py-2 px-3 rounded-md bg-gradient-to-t from-orange-500 to-orange-800"
               >
-                E - mail
+                info@promilcek.com
               </a>
             </div>
           </div>

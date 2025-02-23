@@ -7,13 +7,17 @@ const Workflow = () => {
     <div className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
         Paketi za Promilček{' '}
-        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-pink-300 to-pink-600 text-transparent bg-clip-text">
           - po mjeri vaših potreba.
         </span>
       </h2>
       <div className="flex flex-wrap justify-center sm:mt-2 sm:ml-2 lg:mt-10 lg:ml-5 ">
         <div className="p-2 w-full lg:w-1/2">
-          <img src={codeImg} alt="Coding" className="rounded-3xl" />
+          <img
+            src={codeImg}
+            alt="Coding"
+            className="rounded-3xl lg:h-[80vh] lg:w-[35vw]"
+          />
         </div>
         <div className="pt-12 w-full lg:w-1/2 sm:ml-0 sm:self-center">
           {checklistItems.map((item, index) => (
