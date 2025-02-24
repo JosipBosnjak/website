@@ -4,7 +4,7 @@ import { checklistItems } from '../constants';
 
 const Workflow = () => {
   return (
-    <div className="mt-20">
+    <div id="packages" className="mt-20">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
         Paketi za Promilček{' '}
         <span className="bg-gradient-to-r from-pink-300 to-pink-600 text-transparent bg-clip-text">

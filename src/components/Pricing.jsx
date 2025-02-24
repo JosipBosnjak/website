@@ -38,7 +38,7 @@ const Pricing = () => {
                 href="#"
                 className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-pink-700 border border-pink-400 rounded-lg transition duration-200"
               >
-                Subscribe
+                Coming Soon
               </a>
             </div>
           </div>

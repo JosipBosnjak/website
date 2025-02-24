@@ -9,6 +9,9 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
+  const handleScroll = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <nav className="top-0 z-50 w-full py-3 backdrop-blur-lg border-b border-neutral-700/80">
       <div className="container px-4 mx-auto relative text-sm">
@@ -19,11 +22,21 @@ const Navbar = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
+              <li key={index} className="py-4">
+                <button onClick={() => handleScroll(item.href)}>
+                  {item.label}
+                </button>
+              </li>
+            ))}
+          </ul>
+
+          {/*<ul className="hidden lg:flex ml-14 space-x-12">
+            {navItems.map((item, index) => (
               <li key={index}>
                 <a href="{item.href}">{item.label}</a>
               </li>
             ))}
-          </ul>
+          </ul>*/}
 
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             {/*<a
@@ -31,7 +44,8 @@ const Navbar = () => {
               className="py-2 px-3 rounded.md"
             ></a>*/}
             <a
-              href="https://promilcek.com/"
+              href="https://gmail.com/"
+              target="_blank"
               className="bg-gradient-to-r from-pink-600 to-pink-500 py-2 px-3 rounded-md"
             >
               E-mail: info@promilcek.com
@@ -48,20 +62,17 @@ const Navbar = () => {
             <ul>
               {navItems.map((item, index) => (
                 <li key={index} className="py-4">
-                  <a href={item.href}>{item.label}</a>
+                  <button onClick={() => handleScroll(item.href)}>
+                    {item.label}
+                  </button>
                 </li>
               ))}
             </ul>
             <div className="flex space-x-6">
               <a
-                href="https://promilcek.com/"
-                className="py-2 px-3 border rounded-md"
-              >
-                Kontakt
-              </a>
-              <a
-                href="https://promilcek.com/"
-                className="py-2 px-3 rounded-md bg-gradient-to-t from-orange-500 to-orange-800"
+                href="https://gmail.com/"
+                target="_blank"
+                className="py-2 px-3 rounded-md bg-gradient-to-t from-pink-600 to-pink-500"
               >
                 info@promilcek.com
               </a>

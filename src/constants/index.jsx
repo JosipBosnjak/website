@@ -13,9 +13,9 @@ import user5 from '../assets/profile-pictures/user5.jpg';
 import user6 from '../assets/profile-pictures/user6.jpg';
 
 export const navItems = [
-  { label: 'O nama', href: 'https://promilcek.com/' },
-  { label: 'Paketi', href: 'https://promilcek.com/' },
-  { label: 'Galerija', href: 'https://promilcek.com/' },
+  { label: 'O nama', href: 'about' },
+  { label: 'Paketi', href: 'packages' },
+  { label: 'Galerija', href: 'gallery' },
   //{ label: 'Coming soon', href: 'https://promilcek.com/' },
 ];
 
@@ -63,7 +63,7 @@ export const features = [
     icon: <BotMessageSquare />,
     text: 'Kako funkcionira?',
     description:
-      'Otkrijte kako Promilček brzo i precizno mjeri razinu alkohola u dahu.',
+      'Otkrijte kako Promilček brzo i precizno mjeri razinu alkohola u dahu .',
   },
   {
     icon: <Fingerprint />,
